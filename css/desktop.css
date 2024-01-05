@@ -1,0 +1,7 @@
+@media (min-width: 800px) {
+    /*Header styles*/
+    .header {
+        padding: 0 6rem;
+        list-style: none;
+    }
+}

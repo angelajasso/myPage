@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+/*Header styles*/
+.header {
+    padding: 0 4rem;
+}
+header h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--secondary-color);
+}
+#logo {
+    width: 5rem;
+}
+
+#logo img {
+    width: 100%;
+    border-radius: 100%;
+    border: 0px solid var(--three-color);
+}
+header .logo-complete {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+}
