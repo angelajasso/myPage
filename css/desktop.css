@@ -4,4 +4,15 @@
         padding: 0 6rem;
         list-style: none;
     }
+    header .mode-nav {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    header .menu-nav-icon{
+        display: none;
+    }
+    nav {
+        display: inline-block;
+    }
 }
