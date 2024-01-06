@@ -1,26 +1,45 @@
 @media (min-width: 600px) {
-/*Header styles*/
-.header {
+  /*Header styles*/
+  .header {
     padding: 0 4rem;
-}
-header h1 {
+  }
+  header h1 {
     display: flex;
     justify-content: flex-start;
     color: var(--secondary-color);
-}
-#logo {
+  }
+  #logo {
     width: 5rem;
-}
+  }
 
-#logo img {
+  #logo img {
     width: 100%;
     border-radius: 100%;
     border: 0px solid var(--three-color);
-}
-header .logo-complete {
+  }
+  header .logo-complete {
     display: flex;
     justify-content: left;
     align-items: center;
-}
-
+  }
+  /*Aside styles*/
+  aside {
+    padding: 12rem 4rem 6rem 4rem;
+  }
+  aside .welcome,
+  aside .porta {
+    font-size: 4rem;
+  }
+  aside .description {
+    text-align: center;
+    font-size: 2rem;
+  }
+  aside .pantalla {
+    width: 12rem;
+    height: 12rem;
+  }
+  aside .flor img {
+    width: 12rem;
+    height: 12rem;
+  }
 }
