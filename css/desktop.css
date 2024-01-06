@@ -15,4 +15,36 @@
     nav {
         display: inline-block;
     }
+    /*Aside styles*/
+    aside {
+        padding: 20rem 6rem 14rem 6rem;
+    }
+    aside .welcome, aside .porta {
+        font-size: 4.4rem;
+        line-height: 6rem;
+    }
+    aside .description {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    aside .informacion-contenedor {
+        width: 50%;
+    }
+    aside .pantalla {
+        display: none;
+    }
+    .flor {
+        width: 80%;
+        height: 24rem;
+        position: absolute;
+    }
+    aside .flor img {
+        width: 24rem;
+        height: 24rem;
+        animation: flor-girando 10s infinite linear;
+    }
+    @keyframes flor-girando{from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}}
+    @keyframes flor-girando {from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}}
 }
