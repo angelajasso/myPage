@@ -293,7 +293,7 @@ header .mode-nav {
 header svg {
     fill: var(--three-color);
     stroke: var(--secondary-color);
-    margin: 0 0 0 1rem;
+    margin: 0 1rem;
 }
 nav {
     display: none;
@@ -323,4 +323,48 @@ nav {
 }
 .header-nav__item a::after {
     content: " | ";
+}
+/*Aside styles*/
+aside {
+  background-color: var(--six-color);
+  min-height: 24rem;
+  display: flex;
+  justify-content: center;
+  padding: 12rem 2rem 6rem 2rem;
+  width: 100%;
+  flex-direction: column;
+}
+aside .informacion-contenedor {
+  width: 100%;
+  min-width: 28rem;
+}
+aside .informacion {
+  color: var(--secondary-color);
+}
+aside .welcome, aside .porta {
+  text-align: center;
+  font-size: var(--titles);
+  padding-bottom: 2rem;
+  line-height: 4.4rem;
+}
+aside .welcome {
+  color: var(--four-color);
+}
+aside .description {
+  padding: 1.6rem 0 1.6rem 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 2rem;
+}
+aside .pantalla {
+  width: 8rem;
+  height: 8rem;
+}
+aside .flor {
+  display: flex;
+  justify-content: flex-end;
+}
+aside .flor img {
+  width: 8rem;
+  height: 8rem;
 }
