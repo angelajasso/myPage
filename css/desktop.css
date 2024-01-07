@@ -55,4 +55,10 @@
         width: 50%;
         float: left;
     }
+    .informacion-sobremi {
+        width: 50%;
+        float: left;
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
 }
