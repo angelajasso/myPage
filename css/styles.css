@@ -368,3 +368,21 @@ aside .flor img {
   width: 8rem;
   height: 8rem;
 }
+/*main styles*/
+main {
+  background-color: var(--six-color);
+  padding: 0 2rem;
+}
+main .container-photo {
+  display: flex;
+  align-items: center;
+  min-height: 6rem;
+  justify-content: center;
+
+}
+main .container-photo img {
+  width: 100%;
+  border-radius: 100%;
+  border: 0px solid var(--primary-color);
+  width: 14rem;
+}

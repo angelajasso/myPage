@@ -47,4 +47,12 @@
         to {transform: rotate(360deg);}}
     @keyframes flor-girando {from {transform: rotate(0deg);}
       to {transform: rotate(360deg);}}
+    /*main styles*/
+    main {
+        padding: 0 6rem;
+    }
+    main .container-photo {
+        width: 50%;
+        float: left;
+    }
 }

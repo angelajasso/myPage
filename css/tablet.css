@@ -42,4 +42,11 @@
     width: 12rem;
     height: 12rem;
   }
+  /*main styles*/
+  main {
+    padding: 0 4rem;
+  }
+  main .container-photo img {
+    width: 18rem;
+  }
 }
