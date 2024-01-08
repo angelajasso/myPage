@@ -394,3 +394,42 @@ main .container-photo img {
 .informacion-sobremi h3 {
   margin-bottom: 3rem;
 }
+main .skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.4rem 0;
+  flex-direction: column;
+}
+main .skills h3 {
+  color: var(--secondary-color);
+  font-size: 2.6rem;
+}
+main .skills figcaption {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+main #js {
+  margin: auto;
+}
+main .tech-icons {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  list-style: none;
+}
+main .tech-icons li {
+  margin-left: 0.8rem;
+}
+main .tech-icons .tech-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 3rem;
+  height: 100%;
+}
