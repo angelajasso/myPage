@@ -51,5 +51,14 @@
   }
   .informacion-sobremi {
     font-size: 2rem;
-}
+  }
+  main .skills h3 {
+    font-size: 2.2rem;
+  }
+  main .tech-icons li {
+   margin-left: 1.2rem;
+  }
+  main .tech-icons .tech-icon {
+    width: 4rem;
+  }
 }
