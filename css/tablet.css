@@ -61,4 +61,29 @@
   main .tech-icons .tech-icon {
     width: 4rem;
   }
+  main .projects .history-card {
+    width: 50%;
+    font-size: 2rem;
+}
+main .projects .history-card:nth-child(2){
+    margin-left: 50%;
+}
+main .projects .project-card {
+    font-size: 2rem;
+} 
+main .projects h3 {
+    font-size: 2.8rem;
+}   
+main .projects .project-section .project-card {
+    display: flex;
+}
+main .projects .project-section .project-card img {
+    width: 90%;
+}
+main .projects .project-section .project-description {
+    width: 90%;
+}
+main .projects h3 {
+    font-size: 2rem;
+}
 }

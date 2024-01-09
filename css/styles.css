@@ -433,3 +433,82 @@ main .tech-icons .tech-icon {
   width: 3rem;
   height: 100%;
 }
+main .projects h3 {
+  color: var(--secondary-color);
+  margin-bottom: var(--font);
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+}
+main .projects .card-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  row-gap: 2rem;
+  justify-content: center;
+}
+main .projects .history-card {
+  width: 80%;
+  background-color: var(--three-color);
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 2rem;
+  font-size: var(--font);
+  
+  background: transparent;
+  border: 20px solid var(--three-color);
+}
+main .projects .history-card:nth-child(2){
+  margin-left: 20%;
+}
+main .projects .history-card p {
+  color: var(--secondary-color);
+}
+main .projects .card-section .project-section{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  row-gap: 4rem;
+  justify-content: center;
+}
+main .projects .project-card {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  font-size: var(--font);
+  background: transparent;
+  border: 20px solid var(--three-color);
+}
+main .projects .project-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+main .icons-link {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  list-style: none;
+}
+
+main .icons-link li {
+  margin-left: 0.8rem;
+}
+main .icons-link .icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: #CE7777;
+}
