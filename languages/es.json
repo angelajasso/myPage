@@ -1,0 +1,26 @@
+{
+    "nav":{
+        "one": "Principal",
+        "two": "Proyectos",
+        "three":"Contacto"
+    },
+    "welcome": {
+        "greeting": "¡Hola! Soy Angela Jasso",
+        "rol": "Desarrollador Front-End",
+        "introduction": "¡Bienvenido a mi sitio web personal! Aquí puedes encontrar información sobre mí y mis proyectos más recientes."
+    },
+    "about":{
+        "about-me":"Sobre mí",
+        "description":"Soy estudiante de Ciencias de la Informática, apasionada por el desarrollo web y la tecnología blockchain. Me considero una persona proactiva, responsable, autodidacta y con gran capacidad para aprender y adaptarme a nuevas tecnologías."
+    },
+    "skills":{
+        "title-skills":"Habilidades"
+    },
+    "projects":{
+        "title-projects":"Proyectos"
+    },
+    "gati":{
+        "gati-description":"Una plataforma de comercio electrónico. He empleado HTML, CSS (Sass) y JavaScript para desarrollar una experiencia de compra atractiva y completamente funcional."
+    }
+
+}

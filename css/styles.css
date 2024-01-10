@@ -543,6 +543,16 @@ footer .social-icons .social-icon {
   width: 100%;
   height: 100%;
 }
-footer .social-icons #linkedin, #github, #youtube, #platzi  {
+footer .social-icons #linkedin, #github {
   background: var(--four-color);
+}
+.flags {
+  width: 75px;
+}
+.flags_item {
+  width: 30px;
+}
+.flags_img {
+  display: block;
+  cursor: pointer;
 }
