@@ -56,7 +56,7 @@
     font-size: 2.2rem;
   }
   main .tech-icons li {
-   margin-left: 1.2rem;
+    margin-left: 1.2rem;
   }
   main .tech-icons .tech-icon {
     width: 4rem;
@@ -64,26 +64,29 @@
   main .projects .history-card {
     width: 50%;
     font-size: 2rem;
-}
-main .projects .history-card:nth-child(2){
+  }
+  main .projects .history-card:nth-child(2) {
     margin-left: 50%;
-}
-main .projects .project-card {
+  }
+  main .projects .project-card {
     font-size: 2rem;
-} 
-main .projects h3 {
+  }
+  main .projects h3 {
     font-size: 2.8rem;
-}   
-main .projects .project-section .project-card {
+  }
+  main .projects .project-section .project-card {
     display: flex;
-}
-main .projects .project-section .project-card img {
+  }
+  main .projects .project-section .project-card img {
     width: 90%;
-}
-main .projects .project-section .project-description {
+  }
+  main .projects .project-section .project-description {
     width: 90%;
-}
-main .projects h3 {
+  }
+  main .projects h3 {
     font-size: 2rem;
-}
+  }
+  .flags {
+    left: 20%;
+  }
 }

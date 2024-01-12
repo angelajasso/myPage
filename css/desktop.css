@@ -1,81 +1,97 @@
 @media (min-width: 800px) {
-    /*Header styles*/
-    .header {
-        padding: 0 6rem;
-        list-style: none;
+  /*Header styles*/
+  .header {
+    padding: 0 6rem;
+    list-style: none;
+  }
+  header .mode-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  header .menu-nav-icon {
+    display: none;
+  }
+  nav {
+    display: inline-block;
+  }
+  /*Aside styles*/
+  aside {
+    padding: 20rem 6rem 14rem 6rem;
+  }
+  aside .welcome,
+  aside .porta {
+    font-size: 4.4rem;
+    line-height: 6rem;
+  }
+  aside .description {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-wrap: balance;
+  }
+  aside .informacion-contenedor {
+    width: 50%;
+  }
+  aside .pantalla {
+    display: none;
+  }
+  .flor {
+    width: 80%;
+    height: 24rem;
+    position: absolute;
+  }
+  aside .flor img {
+    width: 24rem;
+    height: 24rem;
+    animation: flor-girando 10s infinite linear;
+  }
+  @keyframes flor-girando {
+    from {
+      transform: rotate(0deg);
     }
-    header .mode-nav {
-        display: flex;
-        justify-content: end;
-        align-items: center;
+    to {
+      transform: rotate(360deg);
     }
-    header .menu-nav-icon{
-        display: none;
+  }
+  @keyframes flor-girando {
+    from {
+      transform: rotate(0deg);
     }
-    nav {
-        display: inline-block;
+    to {
+      transform: rotate(360deg);
     }
-    /*Aside styles*/
-    aside {
-        padding: 20rem 6rem 14rem 6rem;
-    }
-    aside .welcome, aside .porta {
-        font-size: 4.4rem;
-        line-height: 6rem;
-    }
-    aside .description {
-        font-size: 2.4rem;
-        line-height: 3rem;
-        text-wrap: balance;
-    }
-    aside .informacion-contenedor {
-        width: 50%;
-    }
-    aside .pantalla {
-        display: none;
-    }
-    .flor {
-        width: 80%;
-        height: 24rem;
-        position: absolute;
-    }
-    aside .flor img {
-        width: 24rem;
-        height: 24rem;
-        animation: flor-girando 10s infinite linear;
-    }
-    @keyframes flor-girando{from {transform: rotate(0deg);}
-        to {transform: rotate(360deg);}}
-    @keyframes flor-girando {from {transform: rotate(0deg);}
-      to {transform: rotate(360deg);}}
-    /*main styles*/
-    main {
-        padding: 0 6rem;
-    }
-    main .container-photo {
-        width: 50%;
-        float: left;
-    }
-    .informacion-sobremi {
-        width: 50%;
-        float: left;
-        font-size: 2.4rem;
-        line-height: 3rem;
-    }
-    main .skills {
-        align-items: center;
-        flex-direction: initial;
-    }
-    main .tech-icons {
-        margin: 2rem 0;
-    }
-    main .projects .history-card{
-        font-size: 2.4rem;
-    }
-    main .projects .project-card {
-        font-size: 2.4rem;
-    }
-    main .projects h3 {
-        font-size: 2.8rem;
-    }
+  }
+  /*main styles*/
+  main {
+    padding: 0 6rem;
+  }
+  main .container-photo {
+    width: 50%;
+    float: left;
+  }
+  .informacion-sobremi {
+    width: 50%;
+    float: left;
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  main .skills {
+    align-items: center;
+    flex-direction: initial;
+  }
+  main .tech-icons {
+    margin: 2rem 0;
+  }
+  main .projects .history-card {
+    font-size: 2.4rem;
+  }
+  main .projects .project-card {
+    font-size: 2.4rem;
+  }
+  main .projects h3 {
+    font-size: 2.8rem;
+  }
+  .flags {
+    left: 30%;
+  }
 }
